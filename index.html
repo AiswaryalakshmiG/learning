@@ -1,0 +1,278 @@
+<!DOCTYPE html>  <!-- document type -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+<!-- Headings, Paragraphs, Text Formatting -->
+<!-- h1 to h6 -->
+<h1> This is Heading 1</h1> 
+<!-- paragraph -->
+<p> This is Paragraph </p>
+
+<!-- used to highlight text with a yellow background -->
+<p>mark tag is <mark>highlight</mark> our text</p>
+
+<!-- to show text in a smaller size. side notes or less important info.  -->
+<small>
+    small tag show the content in small size
+</small>
+
+<!-- to make text bold . Important meaning. To show very important text (like warnings) -->
+<p>Strong tag is used to <strong>Bold</strong> the contyent</p>
+
+ <!-- bold the text -->
+ <b> bold tag used to bold the content</b>
+
+ <!-- show important text with emphasis.italics.  To show importance in tone (like "please!") -->
+ <p>em tag is used to <em>emphasis</em> our content in italics . used like <em>please</em> </p>
+
+ <!-- used to make text italic. like names -->
+  <p>i tag is used in names, book names like that </p>
+
+  <!-- used to underline text .no spl meaning  -->
+   <p>u tag is used to <u>unterline the word. but there is no any speciak meaning</u></p>
+
+<!-- used to delete(strikethrough) the word  -->
+ <p>del tage is used to strikethrough the word, for example offer: <del> Rs.999</del> RS.499</p>
+ <!-- Used to show added/inserted text with underline -->
+  <p>ins tag used to add <ins>New</ins> content with undereline</p>
+<!-- Subscript is Used to display small text below the baseline. -->
+<p>H<sub>2</sub>O</p>
+<!-- Superscript is Used to display small text above the line -->
+<p>Area = a<sup>2</sup></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- used for break -->
+    <br> 
+
+    <!-- hyperlink inks are defined with the <a> tag -->
+    <a href="https://github.com/AiswaryalakshmiG">Git Repo</a> 
+    <img src="github.png" alt="github image">
+
+    <!-- info about author -->
+    <address>
+        Visit us at:<br>
+        NO:42 VOC nagar<br>
+        Chennai
+    </address>
+
+    <!-- creating independent, self-contained content -->
+    <article>
+        <h2>Git </h2>
+        <p>Git is a free, open source version control tool that developers install locally on their personal computers</p>
+    </article>
+
+    <article>
+        <h2>Git Hub</h2>
+        <p>GitHub is a pay-for-use online service built to run Git in the cloud</p>
+    </article>
+
+    <!-- show the main content of the web page. content must be page-specific, unique-->
+    <main>
+        <h2>Main Article</h2>
+        <p>This is the main content of the page.</p>
+      </main>
+      
+      <!-- aside shows extra information related to the main content. like ads -->
+      <aside>
+        <h3>Related Info</h3>
+        <p>Did you know? HTML was invented in 1993!</p>
+      </aside>
+      
+     
+    
+       <!-- blockquote used to show a long quotation from another source. like book, speech -->
+        <blockquote>
+            "Dream is not what you see in sleep, dream is something which does not let you sleep." – Dr. APJ Abdul Kalam        
+        </blockquote>
+
+        <button type="submit" name="save" value="yes" onclick="alert('Saved!')">
+            Save
+          </button>
+
+</body>
+</html>
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Full Tag Demo</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="All HTML tags demo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial; background-color: #f0f0f0; }
+  </style>
+  <script>
+    function showAlert() {
+      alert("Script tag used!");
+    }
+  </script>
+</head>
+<body onload="showAlert()">
+
+✅ Used: <!DOCTYPE>, <html>, <head>, <title>, <meta>, <style>, <script>, <body>
+✅ 2. Headings, Paragraphs, Text Formatting
+
+  <h1>Main Heading (h1)</h1>
+  <h2>Sub Heading (h2)</h2>
+  <p>This is a <strong>paragraph</strong> with <em>emphasis</em>, 
+  <mark>highlighted text</mark>, and <small>small text</small>.</p>
+  <p><b>Bold</b>, <i>Italic</i>, <u>Underline</u>, <del>Deleted</del>, 
+  <ins>Inserted</ins>, <sub>Subscript</sub>, <sup>Superscript</sup></p>
+
+✅ Used: h1 to h6, p, strong, em, mark, small, b, i, u, del, ins, sub, sup
+✅ 3. Lists & Links
+
+  <ul>
+    <li>Unordered List Item</li>
+    <li>Another Item</li>
+  </ul>
+
+  <ol>
+    <li>Ordered List Item</li>
+  </ol>
+
+  <a href="https://www.google.com" target="_blank">Google Link</a>
+
+✅ Used: ul, ol, li, a
+✅ 4. Images, Audio, Video
+
+  <img src="https://via.placeholder.com/150" alt="Sample Image" />
+  <audio controls>
+    <source src="sample.mp3" type="audio/mpeg" />
+    Your browser does not support audio.
+  </audio>
+  <video width="320" height="240" controls>
+    <source src="sample.mp4" type="video/mp4" />
+    Your browser does not support video.
+  </video>
+
+✅ Used: img, audio, video, source
+✅ 5. Tables
+
+  <table border="1">
+    <caption>Sample Table</caption>
+    <thead>
+      <tr><th>Name</th><th>Age</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Aiswarya</td><td>22</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td colspan="2">Footer</td></tr>
+    </tfoot>
+  </table>
+
+✅ Used: table, caption, thead, tbody, tfoot, tr, th, td
+✅ 6. Forms
+
+  <form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" /><br>
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Reset" />
+    <fieldset>
+      <legend>Details</legend>
+      <textarea name="message"></textarea><br>
+      <select>
+        <option value="one">One</option>
+        <option value="two">Two</option>
+      </select>
+    </fieldset>
+  </form>
+
+✅ Used: form, label, input, textarea, button, select, option, fieldset, legend
+✅ 7. Semantic Elements
+
+  <header><h1>Header Section</h1></header>
+  <nav><a href="#">Home</a> | <a href="#">About</a></nav>
+  <main>
+    <article>
+      <h2>Article Title</h2>
+      <p>Article content...</p>
+    </article>
+    <section>
+      <h3>Section Title</h3>
+      <p>Section content...</p>
+    </section>
+    <aside>
+      <p>Sidebar content</p>
+    </aside>
+  </main>
+  <footer>Footer Content</footer>
+
+✅ Used: header, nav, main, article, section, aside, footer
+✅ 8. Miscellaneous
+
+  <hr>
+  <br>
+  <abbr title="World Health Organization">WHO</abbr>
+  <address>Chennai, Tamil Nadu</address>
+  <code>console.log("Hello");</code>
+  <pre>
+    Line 1
+    Line 2
+  </pre>
+  <progress value="70" max="100"></progress>
+  <meter value="8" min="0" max="10"></meter>
+  <details>
+    <summary>Click to expand</summary>
+    Hidden content
+  </details>
+
+✅ Used: hr, br, abbr, address, code, pre, progress, meter, details, summary
+✅ 9. Entities and Symbols
+
+  <p>&copy; 2025 All rights reserved</p>
+  <p>&hearts; &euro; &yen; &lt; &gt; &amp;</p>
+
+✅ Used: HTML entities like &copy;, &lt;, etc.
+✅ 10. Close Tags
+
+</body>
+</html>
+
+ -->
+
+
+
